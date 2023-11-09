@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Senior SEO Specialist @ Zalando   
+role: Senior SEO Specialist   
 
 # Organizations/Affiliations to show in About widget
 organizations:
