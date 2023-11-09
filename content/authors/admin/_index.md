@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Mario Lambertucci
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Mario Lambertucci
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Mario
+last_name: Lambertucci
 
 # Status emoji
 status:
@@ -55,7 +55,5 @@ social:
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include
-distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops
-self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Mario Lambertucci SEO Expert
 {style="text-align: justify; font-size: 0.8em;"}
