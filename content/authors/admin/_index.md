@@ -17,12 +17,12 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Senior SEO Specialist @ Zalando   
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: Zalando
+    url: https://www.zalando.de/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
@@ -32,17 +32,17 @@ bio: My research interests include distributed robotics, mobile computing and pr
 social:
   - icon: send
     icon_pack: wc
-    link: 'mailto:your-email@example.com'
+    link: 'mailto:mariolambertucci@gmail.com'
   - icon: twitter
     icon_pack: wc
-    link: https://twitter.com/GetResearchDev
+    link: https://twitter.com/mariolambe
     label: Follow me on Twitter
   - icon: github
     icon_pack: wc
-    link: https://github.com/gcushen
+    link: https://github.com/mariolambe
   - icon: linkedin
     icon_pack: wc
-    link: https://www.linkedin.com/
+    link: https://www.linkedin.com/mariolambertucci/
   # Link to a PDF of your resume/CV - upload it to `static/uploads/resume.pdf`
   - icon: cv
     icon_pack: wc
