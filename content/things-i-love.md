@@ -8,7 +8,7 @@ date: 2023-10-24
 <style>
     body { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
     .image-container { display: flex; justify-content: space-around; margin: 20px; }
-    .image-container a { max-width: 45%; }
+    .image-container a { width: 100%; } /* Set the width to 100% for the <a> element */
 </style>
 
 <div class="image-container">
