@@ -30,7 +30,7 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Mario Lambertucci.'
+    notice: '© {year} Mario Lambertucci'
 
 # Localization
 locale:
