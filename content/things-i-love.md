@@ -14,7 +14,7 @@ date: 2023-10-24
 
 <div class="image-container">
     <img src="https://github.com/mariolambe/theme-blog/assets/61537859/99309c57-8181-4ebf-b95e-f6b5f2765974" />
-    <a href="books"><img src="https://github.com/mariolambe/theme-blog/assets/61537859/c465ce68-7289-44da-818b-e33f330e58fc" /></a>
+    <a href="books/"><img src="https://github.com/mariolambe/theme-blog/assets/61537859/c465ce68-7289-44da-818b-e33f330e58fc" /></a>
 </div>
 <div class="image-container">
     <img src="https://github.com/mariolambe/theme-blog/assets/61537859/99309c57-8181-4ebf-b95e-f6b5f2765974" />
