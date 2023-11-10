@@ -62,4 +62,4 @@ I live in Germany since 2014 and I’m originally from Salerno (Italy), close to
 
 Get in touch: mariolambertucci@gmail.com.
 
-{style="text-align: justify; font-size: 0.8em;"}
+{style="text-align: start; font-size: 20px;"}
