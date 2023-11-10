@@ -9,4 +9,5 @@ date: 2023-10-24
 {{< audio src="cello_suite_1.mp3" >}}
 
 ## Image
-{{< figure src="cello-journey.jpg" caption="A caption" numbered="true" >}}
+{{< figure src="cello-journey.jpg" >}}
+
