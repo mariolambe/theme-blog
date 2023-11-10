@@ -13,7 +13,7 @@ date: 2023-10-24
 </style>
 
 <div class="image-container">
-    <img src="cello-journey.jpg" />
+    <img src="assets/media/cello-journey.jpg" />
     <a href="/theme-blog/books/"><img src="cello-journey.jpg" /></a>
 </div>
 <div class="image-container">
