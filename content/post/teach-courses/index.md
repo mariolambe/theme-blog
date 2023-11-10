@@ -46,6 +46,7 @@ You can add a podcast or music to a page by placing the MP3 file in the page's f
 Try it out:
 
 {{< audio src="ambient-piano.mp3" >}}
+{{< audio src="cello_suite_1.mp3" >}}
 
 ## Test students
 
