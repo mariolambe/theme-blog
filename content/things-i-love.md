@@ -5,7 +5,6 @@ date: 2023-10-24
 
 ## My life is empowered by what I love
 
-{{< audio src="cello_suite_1.mp3" >}}
 <style>
         body { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
         .image-container { display: flex; justify-content: space-around; margin: 20px; }
