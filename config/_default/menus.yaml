@@ -10,6 +10,6 @@ main:
   - name: Blog
     url: post/
     weight: 20
-  - name: Uses
-    url: uses/
+  - name: Things I love ❤
+    url: things-I-love/
     weight: 30
