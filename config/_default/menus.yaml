@@ -11,5 +11,5 @@ main:
     url: post/
     weight: 20
   - name: Things I love
-    url: things-love/
+    url: things-i-love/
     weight: 30
