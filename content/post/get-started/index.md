@@ -1,83 +1,96 @@
 ---
-title: 🎉 Easily create your own simple yet highly customizable blog
-summary: Take full control of your personal brand and privacy by migrating away from the big tech platforms!
+title: How to Extract URLs from Sitemaps
+summary: In this article, I'll share my knowledge on how to extract URLs from sitemaps, a crucial step in optimizing your website's SEO.
 date: 2023-10-27
-
-# Featured image
-# Place an image named `featured.jpg/png` in this page's folder and customize its options here.
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 
 authors:
   - admin
 
 tags:
-  - Academic
-  - Wowchemy
-  - Markdown
+  - SEO
 ---
 
 Welcome 👋
 
 ## Overview
 
-1. The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site
-2. The template can be modified and customised to suit your needs. It's a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a **no-code solution (write in Markdown and customize with YAML parameters)** and having **flexibility to later add even deeper personalization with HTML and CSS**
-3. You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more
+(Last Update: 03/07/2023)
 
-[![The template is mobile first with a responsive design to ensure that your site looks stunning on every device.](https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/main/starters/academic/preview.png)](https://hugoblox.com)
+Hello, I'm Mario Lambertucci, a seasoned SEO expert with over 10 years of experience in website management.
 
-## Get Started
+In this article, I'll share my knowledge on how to extract URLs from sitemaps, a crucial step in optimizing your website's SEO. This guide is intended for website owners, SEO professionals, and anyone interested in understanding the inner workings of a website.
 
-- 👉 [**Create a new site**](https://hugoblox.com/templates/)
-- 📚 [**Personalize your site**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Wowchemy community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=%23MadeWithWowchemy&src=typed_query)
-- 💡 [Request a **feature** or report a **bug** for _Wowchemy_](https://github.com/HugoBlox/hugo-blox-builder/issues)
-- ⬆️ **Updating Wowchemy?** View the [Update Guide](https://docs.hugoblox.com/reference/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
+After trying out various methods over the years, I've found these 5 to be the most effective. Let's dive deeper into each one:
 
-## Crowd-funded open-source software
+1. Google Sheets: This method is simple and quick, making it ideal for beginners or those who need to extract URLs quickly. However, it requires access to Google Sheets and may not be suitable for very large sitemaps due to Google Sheets' cell limit.
+2. Screaming Frog: This SEO software is a powerful tool that can handle large sitemaps and sitemap index files. However, it requires a download and installation, and there may be a learning curve for those unfamiliar with the software.
+3. Python (Google Colab): This method is excellent for those who are comfortable with coding. It's flexible and can handle large sitemaps, but it may be intimidating for those without coding experience.
+4. Terminal: This method is quick and doesn't require any additional software, but it requires some familiarity with command line interfaces.
+5. Sitemap Extractor Tool: This online tool is user-friendly and doesn't require any downloads or coding knowledge. However, it may not be suitable for very large sitemaps.
 
-To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
+Remember, the best method depends on your specific needs and comfort level with these tools.
 
-### [❤️ Click here to become a sponsor and help support Wowchemy's future ❤️](https://hugoblox.com/sponsor/)
+## 1) Google Sheets
 
-As a token of appreciation for sponsoring, you can **unlock [these](https://hugoblox.com/sponsor/) awesome rewards and extra features 🦄✨**
+I found a simple sitemap extractor script that will extract the list of URLs from the Sitemap in Google Sheets in less than 5 seconds, pretty impressive, isn’t it? Give it a try.
 
-## Ecosystem
+Here the Google Sheet that act as a sitemap url extractor:
 
-- **[Bibtex To Markdown](https://github.com/GetRD/academic-file-converter):** Automatically import publications from BibTeX
+1. Make a copy of it
 
-## Inspiration
+2. Add the sitemap URL in the cell B2 (example: https://www.google.com/sheets/sitemaps.xml)
 
-[Learn what other **creators**](https://hugoblox.com/creators/) are building with this template.
+3. The list of URLs will appear automatically in column D
 
-## Features
+Done! You have just converted your sitemap to a URL list.
 
-- **Page builder** - Create _anything_ with no-code [**blocks**](https://hugoblox.com/blocks/) and [**elements**](https://docs.hugoblox.com/reference/markdown/)
-- **Edit any type of content** - Blog posts, publications, talks, slides, projects, and more!
-- **Create content** in [**Markdown**](https://docs.hugoblox.com/reference/markdown/), [**Jupyter**](https://docs.hugoblox.com/getting-started/cms/), or [**RStudio**](https://docs.hugoblox.com/getting-started/cms/)
-- **Plugin System** - Fully customizable [**color** and **font themes**](https://docs.hugoblox.com/getting-started/customize/)
-- **Display Code and Math** - Code syntax highlighting and LaTeX math supported
-- **Integrations** - [Google Analytics](https://analytics.google.com), [Disqus commenting](https://disqus.com), Maps, Contact Forms, and more!
-- **Beautiful Site** - Simple and refreshing one-page design
-- **Industry-Leading SEO** - Help get your website found on search engines and social media
-- **Media Galleries** - Display your images and videos with captions in a customizable gallery
-- **Mobile Friendly** - Look amazing on every screen with a mobile friendly version of your site
-- **Multi-language** - 35+ language packs including English, 中文, and Português
-- **Multi-user** - Each author gets their own profile page
-- **Privacy Pack** - Assists with GDPR
-- **Stand Out** - Bring your site to life with animation, parallax backgrounds, and scroll effects
-- **One-Click Deployment** - No servers. No databases. Only files.
+## 2) Screaming Frog
 
-## Themes
+For this second method you need to install the SEO software Screaming Frog to convert any sitemap xml to a url list. This method works pretty well also for sitemap index file that are the ones that contain list of sub-sitemaps.
 
-Wowchemy and its templates come with **automatic day (light) and night (dark) mode** built-in. Visitors can choose their preferred mode by clicking the sun/moon icon in the header.
+Here the steps:
 
-[Choose a stunning **theme** and **font**](https://docs.hugoblox.com/getting-started/customize/) for your site. Themes are fully customizable.
+1. Open Screaming Frog SEO Spider Tool
 
-## License
+2. Mode>Select List
 
-Copyright 2016-present [George Cushen](https://georgecushen.com).
+3. Upload > Download Sitemap > Add Sitemap xml URL
 
-Released under the [MIT](https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md) license.
+Done!
+
+## 3) Python
+
+1. Open Google Colab
+
+2. Enter the sitemap.xml URL
+3. 
+4. Click on the play button on the left
+
+5. Navigate to the folder and you will find the url.txt file that can be easily downloaded 
+
+
+## 4) Terminal
+
+1. Open your terminal
+   
+2. Enter this command (remember to replace the sitemap URL)-> curl -s https://www.google.com/sheets/sitemaps.xml
+
+Done!
+
+## 5) Sitemap URL Extractor tool
+
+This option is really handy and allows you to convert sitemap.xml to url list in seconds thanks to the clean and user friendly UI.
+
+1. Open the sitemap URL extractor
+
+2. Add the XML sitemap URL/sitemaps.xml
+
+3. Export the data
+
+
+
+I hope you find it useful.
+
+If you are aware of other options, just let me know and I will add them to the list.
+
+If you want to optimize or analyzing your Sitemap XML File, you can refer to my article Maximizing Your Website's SEO Potential: A Comprehensive Guide to Analyzing Your Sitemap XML File.
