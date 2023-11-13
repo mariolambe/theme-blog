@@ -23,9 +23,13 @@ In this article, I'll share my knowledge on how to extract URLs from sitemaps, a
 After trying out various methods over the years, I've found these 5 to be the most effective. Let's dive deeper into each one:
 
 **1. Google Sheets:** This method is simple and quick, making it ideal for beginners or those who need to extract URLs quickly. However, it requires access to Google Sheets and may not be suitable for very large sitemaps due to Google Sheets' cell limit.
+
 **2. Screaming Frog:** This SEO software is a powerful tool that can handle large sitemaps and sitemap index files. However, it requires a download and installation, and there may be a learning curve for those unfamiliar with the software.
+
 **3. Python (Google Colab):** This method is excellent for those who are comfortable with coding. It's flexible and can handle large sitemaps, but it may be intimidating for those without coding experience.
+
 **4. Terminal:** This method is quick and doesn't require any additional software, but it requires some familiarity with command line interfaces.
+
 **5. Sitemap Extractor Tool:** This online tool is user-friendly and doesn't require any downloads or coding knowledge. However, it may not be suitable for very large sitemaps.
 
 Remember, the best method depends on your specific needs and comfort level with these tools.
