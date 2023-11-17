@@ -57,9 +57,6 @@ highlight_name: true
 Hi! ☝️That’s me, Mario.
 
 I am Senior SEO Manager at Zalando SE in Germany. I’ve worked on the organic expansion and the definition of SEO requirements of 18+ domains at Zalando.
-
 I live in Germany since 2014 and I’m originally from Salerno (Italy), close to the wonderful Amalfi Coast.
-
 Get in touch: mariolambertucci@gmail.com.
-
 {style="text-align: justify; font-size: 0.8em;"}
